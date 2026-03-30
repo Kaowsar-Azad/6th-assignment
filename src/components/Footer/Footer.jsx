@@ -1,4 +1,7 @@
 import React from 'react'
+import Facebook from '../../assets/Facebook.png'
+import Instagram from '../../assets/Instagram.png'
+import Twitter from '../../assets/Facebook.png'
 
 export const Footer = () => {
   return (
@@ -44,7 +47,12 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h2 className='text-white'>Social Links</h2>
+            <h2 className='text-white -mt-20'>Social Links</h2>
+            <div  className=' Social flex items-center gap-2 mt-2'>
+              <img src={ Facebook} className='w-[30px] h-[30px]'></img>
+              <img src={Instagram} className='w-[30px] h-[30px]' ></img>
+              <img src={Twitter} className='w-[30px] h-[30px]'></img>
+            </div>
           </div>
 
         </div>

@@ -25,7 +25,7 @@ export const Pricing = () => {
             <li><IoMdCheckmark className='text-green-400' /> Community support</li>
             <li><IoMdCheckmark className='text-green-400' /> 1 project per month</li>
           </ul>
-          <button className='w-full py-3 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold transition-all duration-300 hover:opacity-80 hover:scale-95'>
+          <button className='w-full py-3 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold '>
             Get Started Free
           </button>
         </div>
@@ -48,7 +48,7 @@ export const Pricing = () => {
             <li>✓ Cloud sync</li>
             <li>✓ Advanced analytics</li>
           </ul>
-          <button className='w-full py-3 rounded-xl bg-white text-[#4F39FA] font-semibold transition-all duration-300 hover:bg-yellow-200 hover:text-yellow-800 hover:scale-95'>
+          <button className='w-full py-3 rounded-xl bg-white text-[#4F39FA] font-semibold '>
             Start Pro Trial
           </button>
         </div>
@@ -68,7 +68,7 @@ export const Pricing = () => {
             <li><IoMdCheckmark className='text-green-400' /> SLA guarantee</li>
             <li><IoMdCheckmark className='text-green-400' /> Custom branding</li>
           </ul>
-          <button className='w-full py-3 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold transition-all duration-300 hover:opacity-80 hover:shadow-lg hover:scale-95'>
+          <button className='w-full py-3 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold'>
             Contact Sales
           </button>
         </div>
