@@ -10,6 +10,7 @@ import { Pricing } from './components/Pricing/Pricing'
 import { Rating } from './components/Rating/Rating'
 import { Cart } from './components/Cart/Cart'
 
+
 const fetchCard = async () => {
   const res = await fetch("/data.json");
   const data = await res.json()

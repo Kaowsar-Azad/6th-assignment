@@ -1,6 +1,5 @@
 import { IoMdCheckmark } from "react-icons/io";
 import { use } from "react";
-
 export const Cards = ({AllCards ,cart , setcart , setselectType , selectType}) => {
   const CardData = use(AllCards)
 
@@ -8,7 +7,7 @@ export const Cards = ({AllCards ,cart , setcart , setselectType , selectType}) =
     const filtered = cart.filter(item => item.id !== card.id)
     setcart([...filtered , card])
   }
-
+     
   return (
     <> 
     <div className='text-center space-y-2.5 mt-4 '>
@@ -26,12 +25,15 @@ export const Cards = ({AllCards ,cart , setcart , setselectType , selectType}) =
           className={`${selectType === "products" ? "bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white" : "text-gray-700"} px-3 py-1 rounded-xl font-semibold`}>
           Products
         </button>
-
-        <button 
-          onClick={() => setselectType("cart")}
+         
+        
+            <button 
+          onClick={() => setselectType("cart")} 
           className={`${selectType === "cart" ? "bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white" : "text-gray-700"} px-3 py-1 rounded-xl font-semibold`}>
           Cart({cart.length})
-        </button>
+        </button>  
+         
+      
 
       </div>
     </div>
@@ -62,12 +64,14 @@ export const Cards = ({AllCards ,cart , setcart , setselectType , selectType}) =
                   <li><IoMdCheckmark className='text-green-400' /> {card.features[1]}</li>
                   <li><IoMdCheckmark className='text-green-400' /> {card.features[2]}</li>
                 </ul>
-
-                <button 
-                  onClick={() => AddToCart(card)}
+                <div>
+                  <button 
+                  onClick={() => AddToCart(card)  }
                   className=' px-30 py-2 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold'>
                   Buy Now
-                </button>
+                </button> 
+                </div>
+                
               </div>
             </div>
           )
