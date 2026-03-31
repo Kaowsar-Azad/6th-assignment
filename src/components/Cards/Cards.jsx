@@ -65,7 +65,7 @@ export const Cards = ({AllCards ,cart , setcart , setselectType , selectType}) =
 
                 <button 
                   onClick={() => AddToCart(card)}
-                  className='hover:shadow-xl hover:scale-105 px-30 py-2 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold'>
+                  className=' px-30 py-2 rounded-xl bg-gradient-to-r from-[#4F39FA] to-[#9514FA] text-white font-semibold'>
                   Buy Now
                 </button>
               </div>

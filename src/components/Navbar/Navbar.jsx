@@ -7,8 +7,16 @@ export const Navbar = ({cart , setselectType}) => {
       <div className="navbar bg-base-100 shadow-sm">
 
         <div className="navbar-start">
+          <div className="dropdown">
+            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            </div>
+            <ul tabIndex="-1" className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a>Item 1</a></li>
+            </ul>
+          </div>
+
           <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
-            daisyUI
+            DigiTools
           </a>
         </div>
 
@@ -19,16 +27,28 @@ export const Navbar = ({cart , setselectType}) => {
                 Products
               </button>
             </li>
+            <li><a>Features</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Testimonials</a></li>
+            <li><a>FAQ</a></li>
           </ul>
         </div>
 
-        <div className="navbar-end gap-4">
+        <div className="navbar-end gap-7">
 
-          <div className="flex items-center gap-2 cursor-pointer"
+          <div 
+            className="relative cursor-pointer"
             onClick={() => setselectType("cart")}
           >
             <img src={shoppingCart} />
-            <span>({cart.length})</span>
+
+            {
+              cart.length > 0 && (
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1 py-0.2 rounded-full">
+                  {cart.length}
+                </span>
+              )
+            }
           </div>
 
           <h1>Login</h1>
