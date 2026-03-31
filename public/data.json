@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "title": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "billing": "mo",
+    "tag": "Best Seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "image": "https://i.ibb.co.com/ccxh2NgB/Group-7.png"
+  },
+  {
+    "id": 2,
+    "title": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "billing": "one-time",
+    "tag": "Popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "image": "https://i.ibb.co.com/xK9c3ZjL/Group-7-3.png"
+  },
+  {
+    "id": 3,
+    "title": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "billing": "mo",
+    "tag": "New",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "image": "https://i.ibb.co.com/pjTkqXP8/Group-7-4.png"
+  },
+  {
+    "id": 4,
+    "title": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "billing": "mo",
+    "tag": "Popular",
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "image": "https://i.ibb.co.com/FLVGxx6K/Group-7-5.png"
+  },
+  {
+    "id": 5,
+    "title": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
+    "billing": "one-time",
+    "tag": "New",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "image": "https://i.ibb.co.com/mF6z2kvL/Group-7-2.png"
+  },
+  {
+    "id": 6,
+    "title": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
+    "billing": "mo",
+    "tag": "Best Seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "image": "https://i.ibb.co.com/XZdjKx5r/Group-7-1.png"
+  }
+]
+
+
+
+
+
+
+
+
+
+

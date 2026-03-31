@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className='grid grid-cols-2 mt-[85px] place-items-center '>
         <div className='space-y-4'> 
-            <h1 className='flex items-center justify-center px-1 py-1 bg-[#EEF2FF] w-[290px] rounded-2xl'><img src={Circle}></img>New: AI-Powered Tools Available</h1>
+            <h1 className='flex items-center justify-center gap-1.5 px-1 py-1 bg-[#EEF2FF] w-[290px] rounded-2xl'><img src={Circle}></img>New: AI-Powered Tools Available</h1>
             <h1 className='font-bold text-3xl'>Supercharge Your <br></br>Digital Workflow</h1>
             <p className='text-[#627382] text-[14px]'>
                 Access premium AI tools, design assets, templates, and productivity<br></br>

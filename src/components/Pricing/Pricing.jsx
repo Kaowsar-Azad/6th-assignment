@@ -12,7 +12,7 @@ export const Pricing = () => {
 
       <div className='grid grid-cols-3 gap-6 max-w-5xl mx-auto items-center'>
 
-        <div className='bg-white border border-gray-200 rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-[#4F39FA] cursor-pointer'>
+        <div className='bg-white border border-gray-200 rounded-2xl p-8  hover:shadow-xl hover:scale-105 hover:border-[#4F39FA] '>
           <h3 className='text-xl font-bold text-gray-800'>Starter</h3>
           <p className='text-gray-500 text-sm mt-1'>Perfect for getting started</p>
           <div className='mt-4 mb-6'>
@@ -30,7 +30,7 @@ export const Pricing = () => {
           </button>
         </div>
 
-        <div className='relative bg-gradient-to-b from-[#4F39FA] to-[#9514FA] rounded-2xl p-8 text-white scale-105 shadow-xl transition-all duration-300 hover:scale-110 hover:shadow-2xl cursor-pointer'>
+        <div className='relative bg-gradient-to-b from-[#4F39FA] to-[#9514FA] rounded-2xl p-8 text-white scale-105 shadow-xl hover:scale-110 hover:shadow-2xl '>
           <div className='absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-200 text-yellow-800 text-xs font-semibold px-4 py-1 rounded-full'>
             Most Popular
           </div>
@@ -53,7 +53,7 @@ export const Pricing = () => {
           </button>
         </div>
 
-        <div className='bg-white border border-gray-200 rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:scale-105 hover:border-[#4F39FA] cursor-pointer'>
+        <div className='bg-white border border-gray-200 rounded-2xl p-8  hover:shadow-xl hover:scale-105 hover:border-[#4F39FA] '>
           <h3 className='text-xl font-bold text-gray-800'>Enterprise</h3>
           <p className='text-gray-500 text-sm mt-1'>For teams and businesses</p>
           <div className='mt-4 mb-6'>

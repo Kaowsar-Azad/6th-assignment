@@ -9,7 +9,7 @@ import rocket from '../../assets/rocket.png'
 export const MidSection = () => {
   return (
     < >
-     <div className='space-y-5 mt-5'>
+     <div className='space-y-5 mt-10'>
         <div className='flex flex-col items-center text-center space-y-5'>
             <h1 className='font-bold text-3xl '>Get Started in 3 Steps</h1>
             <p className='text-[#627382] text-[16px]'>Start using premium digital tools in minutes, not hours.</p>
